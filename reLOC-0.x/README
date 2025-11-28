@@ -39,9 +39,9 @@ cannot see the formula in the DIMACS format).
 Following examples of command line options show
 how to run the solver.
 
-./solver_reLOC --encoding=mdd --output-file=solution.txt --input-file=clique_07_t07.cpf
+./solver_reLOC --encoding=mdd --output-file=solution.txt --input-file=../samples/clique_07_t07.cpf
 
-./insolver_reLOC --encoding=mdd --output-file=solution.txt --input-file=clique_07_t07.cpf
+./insolver_reLOC --encoding=mdd --output-file=solution.txt --input-file=../samples/clique_07_t07.cpf
 
 Use --help to see all command line options
 and be aware that not all combinations work
